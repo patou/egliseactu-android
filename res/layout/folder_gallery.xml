@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="match_parent">
+
+	<TextView android:id="@+id/text_sep" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical" android:layout_weight="1"
+		android:textSize="14dip" android:textStyle="bold" android:textColor="@drawable/solid_black"
+		android:text="@string/title_folder"/>
+	<Gallery xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/folder" android:layout_width="fill_parent"
+		android:layout_height="120dip" android:layout_gravity="center"
+		android:unselectedAlpha="0.3" android:overScrollMode="always" />
+	<TextView android:id="@+id/text_sep" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical" android:layout_weight="1"
+		android:textSize="14dip" android:textStyle="bold" android:textColor="@drawable/solid_black"
+		
+		android:text="@string/title_news"
+		 />
+</LinearLayout>

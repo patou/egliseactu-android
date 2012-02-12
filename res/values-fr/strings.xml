@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">ÉgliseActus</string>
+	<string name="loading">chargement ...</string>
+	<string name="description_home">Accueil</string>
+	<string name="next">Suivant ...</string>
+	<string name="error_loading_actus">Erreur en chargeant les actualités.</string>
+	<string name="list_empty">Liste vide</string>
+	<string name="webpage_share">Je veux partager cet article venant du site de
+		l\'Église catholique en France : %2$s :\n %1$s</string>
+	<string name="webpage_share_subject">ÉgliseActus : %1$s</string>
+	<string name="main_menu_website">Site web</string>
+	<string name="main_menu_contact">Contactez-nous</string>
+	<string name="main_menu_share">Partager</string>
+	<string name="main_menu_about">À propos</string>
+	<string name="main_menu_friendapps">Autres applications</string>
+	<string name="main_menu_clearcache">Vider le cache</string>
+	<string name="main_menu_webcatho">Webcatho</string>
+	<string name="share_with">Partager avec</string>
+	<string name="share_subject">Découvrez ÉgliseActus</string>
+	<string name="description_share">Je veux vous partager l\'application android
+		ÉgliseActus, affichant les actualités et dossier de l\'Église
+		catholique en France : http://eglise.catholique.fr. Vous pouvez
+		retrouver l\'application dans le marketplace d\'android ou sur le site
+		http://android.catholique.fr</string>
+	<string name="about_title">ÉgliseActus</string>
+	<string name="about_sub_title">Développé par: Patrice de Saint Steban</string>
+	<string name="about_copyright">Un service offert par la Conférence des Évêques de
+		France (CEF), plus d\'informations sur http://eglise.catholique.fr
+	</string>
+	<string name="about_website">Retrouvez plus d\'informations et les autres
+		applications d\'android : http://android.catholique.fr</string>
+	<string name="about_webcatho">http://www.webcatho.fr</string>
+	<string name="title_folder">Dossiers:</string>
+	<string name="title_news">Actualités:</string>
+	<string name="html_errors">
+		<html>
+			<head>
+				<title>Erreur de chargement de la page</title>
+				<style> h1 { color:#6A9EC3;font-size:1.1em} h3 {color:#6A9EC3;} a,
+					a:visited, a:active {color: #486faa;} </style>
+			</head>
+			<body>
+				<h1>Erreur de chargement de la page</h1>
+				<p>Une erreur s\'est produite en téléchargant la page %1$s</p>
+				<a
+					href="javascript:document.getElementById(\'errors\').style.display=\'block\';">Afficher le détail de l\'erreur</a>
+				<pre style="display:none;" id="errors">%2$s</pre>
+			</body>
+		</html>
+	</string>
+</resources>

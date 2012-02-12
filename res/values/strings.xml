@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EgliseActu</string>
+    <string name="loading">loading...</string>
+    <string name="description_home">Home</string>
+    <string name="next">Next ...</string>
+    <string name="error_loading_actus">Error when loading actus.</string>
+    <string name="list_empty">List empty</string>
+    <string name="webpage_share">I want to share the article on the French catholics church %2$s :\n %1$s</string>
+    <string name="webpage_share_subject">EgliseActus : %1$s</string>
+    <string name="main_menu_website">Website</string>
+	<string name="main_menu_contact">Contact us</string>
+	<string name="main_menu_share">Share</string>
+	<string name="main_menu_about">About</string>
+	<string name="main_menu_friendapps">Other Apps</string><string name="main_menu_clearcache">Clear cache</string><string name="main_menu_webcatho">Webcatho</string>
+    <string name="share_with">Share with</string>
+    <string name="share_subject">See EgliseActus</string>
+	<string name="description_share">I want to share the android application EgliseActus, with actuality from the French catholic church : http://eglise.catholique.fr, You can find the application in the android marketplace or in the website http://android.catholique.fr</string>
+	<string name="about_title">EgliseActus</string>
+	<string name="about_sub_title">Developed by: Patrice de Saint Steban</string>
+	<string name="about_copyright">A service given by the french\'s bishop conference
+		(CEF), more information on the website
+		http://www.eglise.catholique.fr
+	</string>
+	<string name="about_website">Find information on the site:
+		http://androide.catholique.fr</string>
+	<string name="about_webcatho">http://www.webcatho.fr</string>
+	<string name="title_folder">Folder:</string>
+	<string name="title_news">News:</string>
+	<string name="html_errors">&lt;html&gt;&lt;head&gt;&lt;title&gt;Error of loading the page&lt;/title&gt;&lt;style&gt; h1 { color:#6A9EC3;font-size:1.1em} h3 {color:#6A9EC3;} a, a:visited, a:active {color: #486faa;} &lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;Error of loading the page&lt;/h1&gt;&lt;p&gt;An error occurred downloading the page %1$s&lt;/p&gt;&lt;a href=&quot;javascript:document.getElementById(\'errors\').style.display=\'block\';&quot;&gt;Afficher le détail de l\'erreur&lt;/a&gt;&lt;pre style=&quot;display:none;&quot; id=&quot;errors&quot;&gt;%2$s&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;</string>
+</resources>

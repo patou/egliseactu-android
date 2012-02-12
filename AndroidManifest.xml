@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="cef.egliseactu" android:versionCode="2" android:versionName="1.0b2">
+	<uses-sdk android:minSdkVersion="4" />
+	<supports-screens android:smallScreens="true"
+		android:normalScreens="true" android:largeScreens="true"
+		android:anyDensity="true"></supports-screens>
+	<application android:icon="@drawable/icon" android:label="@string/app_name"
+		android:theme="@style/MesseInfoTheme">
+		<activity android:name=".EgliseActuActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".DisplayWebPageActivity">
+			<intent-filter android:priority="5">
+				<action android:name="android.intent.action.VIEW">
+				</action>
+				<category android:name="android.intent.category.DEFAULT">
+				</category>
+				<category android:name="android.intent.category.BROWSABLE">
+				</category>
+				<data android:host="www.eglise.catholique.fr" android:scheme="http" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".FolderListActivity">
+		</activity>
+		<activity android:name=".SearchActivity">
+		</activity>
+		<activity android:name=".AboutActivity">
+		</activity>
+		<activity android:name="com.sfeir.android.friendapps.FriendListActivity"></activity>
+		<provider android:authorities="cef.egliseactu"
+			android:name=".providers.DatabaseContentProvider"></provider>
+	</application>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+</manifest>
